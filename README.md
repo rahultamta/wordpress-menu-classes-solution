@@ -22,4 +22,3 @@ add_filter('nav_menu_link_attributes', function ($atts, $item, $args) {
     $atts['class'] = $class;
     return $atts;
     }, 10, 3);
-
